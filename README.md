@@ -15,7 +15,7 @@ Processors: 8 × Intel® Core™ i7-9700KF CPU @ 3.60GHz
 
 # Python multithreading
 
-
+ничего не дает.
 ***multithreading***
 
 ```shell
@@ -24,6 +24,7 @@ Processors: 8 × Intel® Core™ i7-9700KF CPU @ 3.60GHz
 
 
 
-# Lammps install
+# multiprocessing
+Дает значительный прирост производительности на короткое время. Потом идет снижение производительности. Надо думать над кодом. Тупо распараллелить не получится.
 
-***[Lammps](https://www.lammps.org/)***  - пакет созданный для молекулярной динамики на основе языков ***C++*** и ***CUDA*** . 
+
